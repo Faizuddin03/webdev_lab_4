@@ -11,8 +11,11 @@ function checkInput() {
       if (number < 10) {
         alert("The number is lower than 10");
       } 
-      else {
+      else if (number >=10){
         alert("The number is higher than 10");
+      }
+      else{
+        alert("Please enter a number");
       }
 }
 
